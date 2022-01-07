@@ -1,0 +1,57 @@
+*{
+    margin:0 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.game {
+    background-color: black;
+    width: 440px;
+    height: 440px;
+    border:2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.board {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/imgs/board-g9056820d5_1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+
+}
+
+
+
+
+
+.redPawn {
+    background-image: url("/imgs/red.png");
+    background-size: contain;
+
+}
+
+.whitePawn {
+    background-image: url("/imgs/white.png");
+    background-size: contain;
+
+}
+
+.empty {
+    background-color: transparent;
+}
+
+.green {
+    background-color: green;
+}
